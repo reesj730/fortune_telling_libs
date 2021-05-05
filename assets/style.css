@@ -1,9 +1,34 @@
 
 
 body{
-	background-color: black;
 	overflow: scroll;
 }
+
+.canvas {
+   overflow: hidden;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   height: 900px;
+}
+
+.canvas .sky {
+   height: 300%;
+   width: 300%;
+   position: absolute;
+   top: -100%;
+   left: -100%;
+   margin-top: 50%;
+   background-color: darkblue;
+   background: -webkit-radial-gradient(center, rgba(0, 0, 70, 1) 0%, #000 60%);
+   -webkit-animation: rotate 250s infinite linear;
+   -webkit-backface-visibility: hidden;
+   -webkit-transform-style: preserve-3d;
+}
+
+
 
 h1{
 	position: absolute;
