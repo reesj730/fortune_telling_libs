@@ -119,4 +119,34 @@ a:hover {
 }
 
 
+/* Media Queries */
+@media screen and (max-width: 600px){
+  body{
+    width: 600px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .background_img{
+    position: absolute;
+    width: 160%;
+    height: 1500px;
+    left: -148px;
+    top: -360px;
+    transform: rotate(90deg);
+  }
+
+  .title_fortune{
+    top: 140px;
+    left: 95px;
+    width: 60%;
+  }
+
+  h1{
+    top: 710px;
+    left: 100px;
+  }
+}
+
+
 
